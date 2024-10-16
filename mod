@@ -20,5 +20,20 @@
   "controlStyles[5].target": "Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid",
   "controlStyles[5].styles[0]": "Padding=2,0,2,0",
   "controlStyles[5].styles[1]": "CornerRadius=24",
-  "controlStyles[5].styles[2]": "Background:=<AcrylicBrush TintColor=\"{ThemeResource SystemChromeAltHighColor}\" TintOpacity=\"0.8\" FallbackColor=\"{ThemeResource SystemChromeLowColor}\" />"
+  "controlStyles[5].styles[2]": "Background:=<AcrylicBrush TintColor=\"{ThemeResource SystemChromeAltHighColor}\" TintOpacity=\"0.8\" FallbackColor=\"{ThemeResource SystemChromeLowColor}\" />",
+  "controlStyles[6].target": "Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Border#BackgroundElement",
+  "controlStyles[6].styles[0]": "Background:=<ImageBrush Stretch=\"none\" ImageSource=\"https://i.imgur.com/KRHsZa1.png\" />", 
+  "controlStyles[7].target": "Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon",
+  "controlStyles[7].styles[0]": "Visibility=Collapsed",
+
+  "controlStyles[8].target": "Taskbar.SearchBoxButton#SearchBoxButton[AutomationProperties.AutomationId=SearchButton] > Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement", 
+  "controlStyles[8].styles[0]": "Background:=<ImageBrush Stretch=\"none\" ImageSource=\"C:\\icons\\search.png\" />",
+  "controlStyles[9].target": "Taskbar.SearchBoxButton#SearchBoxButton[AutomationProperties.AutomationId=SearchButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon",
+  "controlStyles[9].styles[0]": "Visibility=Collapsed",
+
+  "controlStyles[10].target": "Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.Name=Task View] > Taskbar.TaskListButtonPanel > Border#BackgroundElement",
+  "controlStyles[10].styles[0]": "Background:=<ImageBrush Stretch=\"none\" ImageSource=\"https://i.imgur.com/ydS57NB.png\" />",
+  "controlStyles[11].target": "Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.Name=Task View] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon",
+  "controlStyles[11].styles[0]": "Visibility=Collapsed"
+   
 }
